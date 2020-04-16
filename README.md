@@ -1,4 +1,4 @@
-# Python/Flask tutorial sample for Visual Studio Code
+# CI/CD for Flask Webapp
 
 ## Resources
 
