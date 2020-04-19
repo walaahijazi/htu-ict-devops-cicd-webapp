@@ -9,8 +9,4 @@ alias activate=". ../.env/bin/activate"
 
 pip install gunicorn flask
 
-mkdir ~/myproject
-cd ~/myproject
-python3.8 -m venv myprojectenv
-source myprojectenv/bin/activate
 
