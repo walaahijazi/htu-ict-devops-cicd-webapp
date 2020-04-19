@@ -9,4 +9,6 @@ alias activate=". ../.env/bin/activate"
 
 pip install gunicorn flask
 
+gunicorn --bind=0.0.0.0:5000 --workers=4 hello:app
+
 
