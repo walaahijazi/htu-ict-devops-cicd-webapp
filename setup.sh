@@ -6,3 +6,5 @@ sudo apt install gunicorn3
 pip install -r requirements.txt
 
 alias activate=". ../.env/bin/activate"
+
+pip install gunicorn flask
