@@ -25,5 +25,8 @@ steps:
       setup.sh
       requirements.txt
       hello.py
+      hello_app
     targetFolder: '/home/web2020'
+    cleanTargetFolder: true
     readyTimeout: '20000'
+    failOnEmptySource: true
