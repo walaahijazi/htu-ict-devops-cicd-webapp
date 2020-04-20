@@ -18,14 +18,4 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: CopyFilesOverSSH@0
-  inputs:
-    sshEndpoint: 'web2020@52.170.207.148'
-    contents: |
-      setup.sh
-      requirements.txt
-      hello.py
-    targetFolder: '/home/web2020'
-    cleanTargetFolder: true
-    readyTimeout: '20000'
-    failOnEmptySource: true
+
