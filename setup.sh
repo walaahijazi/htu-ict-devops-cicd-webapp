@@ -10,6 +10,6 @@ pip install -r requirements.txt
 
 alias activate=". ../.env/bin/activate"
 
-gunicorn --bind=0.0.0.0:5000 --workers=4 hello:py
+gunicorn --bind=0.0.0.0:5000 --workers=4 hello:app
 
 pip install gunicorn flask
