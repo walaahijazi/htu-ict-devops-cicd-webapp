@@ -16,10 +16,7 @@ gunicorn --bind=0.0.0.0:5000 --workers=4 hello:app
 
 pip install gunicorn flask
 
-sudo firewall-cmd --state
+sudo ufw disable
 
-
-
-sudo systemctl stop firewalld
 
 
