@@ -15,12 +15,7 @@ pool:
     sourceFolder: 'setup.sh'
     contents: '**'
     targetFolder: '/home/web2020'
-    cleanTargetFolder: true
     readyTimeout: '20000'
-    failOnEmptySource: true
-
-
-
 
 steps:
 - script: bash setup.sh
