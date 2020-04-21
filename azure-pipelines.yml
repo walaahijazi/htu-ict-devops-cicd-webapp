@@ -21,7 +21,7 @@ steps:
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'web2020@52.170.207.148'
-    sourceFolder: 'hello.py  requirements.txt setup.sh'
+    sourceFolder: 'setup.sh'
     contents: '**'
     targetFolder: '/home/web2020'
     readyTimeout: '20000'
