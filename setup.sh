@@ -1,19 +1,8 @@
 !#/bin/bash
-sudo wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz
-
-sudo apt install gunicorn3
-
-pip install gunicorn flask
-
-python3 -m pip install --user virtualenv
-
-alias activate=". ../.env/bin/activate"
-
-
-
-pip install -r requirements.txt
-
-
+sudo apt-get install python3-venv
+sudo apt-get install pthon3-pip
+python3 -m venv test_ 
+source test_inv/bin/activate
+pip3 install -r requirements.txt
+pip3 install gunicorn
 gunicorn --bind=0.0.0.0:5000 --workers=4 hello:app
-
-pip install gunicorn flask
